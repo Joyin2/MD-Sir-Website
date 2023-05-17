@@ -29,3 +29,19 @@ body {
   padding: 0;
   margin: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&display=swap');
+
+section{
+  padding: 0rem 3.5rem;
+}
+
+
+:root {
+  --ocean: #17bf9e;
+  --green: #0a2b1e;
+}
+
+i {
+  color: var(--ocean);
+}
