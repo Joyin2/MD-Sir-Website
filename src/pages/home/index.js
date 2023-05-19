@@ -12,7 +12,6 @@ const Home = () => {
           <div className={styles.schedule}>
             <h1>Anytime Anywhere Learn on your Suitable Schedule</h1>
             <p>
-              
               hello this is an awesome coaching centre which is absolutely fine
               for govt examinations and these text are only for demo purpose , I
               hope u understand hello this is an awesome coaching centre which
@@ -70,11 +69,18 @@ const Home = () => {
         <div className={styles.courses}>
           <div className={styles.coursesHeader}>
             <h1>Our Popular Courses</h1>
-            <p>hello this is an awesome coaching centre which is absolutely fine for govt examinations and these text are only for demo purpose , I hope u understand hello this is an awesome coaching centre which is absolutely fine for govt examinations and these text are only for demo purpose , I hope u understand</p>
+            <p>
+              hello this is an awesome coaching centre which is absolutely fine
+              for govt examinations and these text are only for demo purpose , I
+              hope u understand hello this is an awesome coaching centre which
+              is absolutely fine for govt examinations and these text are only
+              for demo purpose , I hope u understand
+            </p>
             <button>See All Course</button>
           </div>
           <div className={styles.courseCards}>
-          <Cards/>
+            <Cards />
+            
           </div>
         </div>
       </section>
