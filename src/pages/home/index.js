@@ -3,6 +3,7 @@ import Image from "next/image";
 import heroImg from "../../assests/images/man with laptop.jpeg";
 import autoprefixer from "autoprefixer";
 import Cards from "@/components/Card/Card";
+import AboutUs from "../../assests/images/about-us.png"
 
 const Home = () => {
   return (
@@ -83,12 +84,39 @@ const Home = () => {
             <Cards />
             <Cards />
             <Cards />
-            
-            
           </div>
         </div>
       </section>
-      
+      <section title="about">
+        <div className={styles.about}>
+          <div className={styles.aboutImage}>
+            <Image src={AboutUs} />
+          </div>
+          <div className={styles.aboutDetail}>
+            <h1>About Us</h1>
+            <p>Our coaching institute is aawesome , We provide quality education, hello this is an awesome coaching centre which is absolutely fine
+              for govt examinations and these text are only for demo purpose</p>
+            <div className={styles.aboutNumbers}>
+              <p>
+                <h1>10 +</h1>
+                <span>Courses</span>
+              </p>
+              <p>
+                <h1>5 years </h1>
+                <span>Completed </span>
+              </p>
+              <p>
+                <h1>5K +</h1>
+                <span>Students </span>
+              </p>
+              <p>
+                <h1>3 +</h1>
+                <span>District</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
