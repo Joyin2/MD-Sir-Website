@@ -24,9 +24,14 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
+.container h1{
+    margin: 5px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
 
 .container p{
-    margin: 10px 10px 10px 10px ;
+    margin: 5px 5px 5px 5px ;
+    font-family: "Roboto", sans-serif;
 }
 
 .container span {
@@ -34,7 +39,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px;
+    margin: 5px;
 }
 
 .container span :nth-child(1){

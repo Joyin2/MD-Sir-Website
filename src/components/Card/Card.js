@@ -8,7 +8,8 @@ const Cards = () => {
     // <div className={styles.cards}>
       <div className={styles.container}>
         <Image src={manLaptop} />
-        <p>this course is best for govt examinations</p>
+        <h1>Assam Police</h1>
+        <p>This course covers full syllabus</p>
         <span>
           <Link href="">Learn more</Link>
         
