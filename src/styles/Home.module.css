@@ -90,7 +90,7 @@
 }
 
 .coursesHeader h1 {
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2.5rem;
   font-weight: 600;
   margin-bottom: 2rem;
@@ -124,4 +124,69 @@
   gap: 3rem;
   
   margin-top: 3rem;
+}
+
+
+/* about */
+
+.about{
+  margin-top: 5rem;
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  gap: 1rem;
+
+}
+.aboutImage{
+  position: relative;
+  display: flex;
+  width: 50%;
+  padding: 2rem;
+
+}
+.aboutImage img{
+  width: 100%;
+  height: fit-content;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 1px rgba(128, 128, 128, 0.799);
+  
+}
+.aboutDetail{
+  position: relative;
+  display: flex;
+  width: 50%;
+  padding: 2rem;
+  flex-direction: column;
+}
+.aboutDetail h1{
+  font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--green);
+}
+
+.aboutDetail p{
+  font-family: "Montserrat Alternates", sans-serif;
+  line-height: 1.8rem;
+  color: gray;
+
+}
+
+.aboutNumbers{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.aboutNumbers p{
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  margin-top: 1.5rem;
+}
+
+.aboutNumbers p span{
+  color: gray;
+  line-height: 3rem;
 }
