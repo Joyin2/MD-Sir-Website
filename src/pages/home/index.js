@@ -80,10 +80,15 @@ const Home = () => {
           </div>
           <div className={styles.courseCards}>
             <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            
             
           </div>
         </div>
       </section>
+      
     </>
   );
 };
