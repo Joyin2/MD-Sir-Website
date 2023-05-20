@@ -3,7 +3,9 @@ import Image from "next/image";
 import heroImg from "../../assests/images/man with laptop.jpeg";
 import autoprefixer from "autoprefixer";
 import Cards from "@/components/Card/Card";
-import AboutUs from "../../assests/images/about-us.png"
+import AboutUs from "../../assests/images/about-us.png";
+import ChooseImg from "../../assests/images/why-choose-us.png";
+import Testimonial from "../../assests/images/studentVoice.png";
 
 const Home = () => {
   return (
@@ -66,6 +68,40 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <section title="about">
+        <div className={styles.about}>
+          <div className={styles.aboutImage}>
+            <Image src={AboutUs} />
+          </div>
+          <div className={styles.aboutDetail}>
+            <h1>About Us</h1>
+            <p>
+              Our coaching institute is aawesome , We provide quality education,
+              hello this is an awesome coaching centre which is absolutely fine
+              for govt examinations and these text are only for demo purpose
+            </p>
+            <div className={styles.aboutNumbers}>
+              <p>
+                <h1>10 +</h1>
+                <span>Courses</span>
+              </p>
+              <p>
+                <h1>5 years </h1>
+                <span>Completed </span>
+              </p>
+              <p>
+                <h1>5K +</h1>
+                <span>Students </span>
+              </p>
+              <p>
+                <h1>3 +</h1>
+                <span>District</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       <section title="courses">
         <div className={styles.courses}>
           <div className={styles.coursesHeader}>
@@ -87,32 +123,108 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section title="about">
-        <div className={styles.about}>
-          <div className={styles.aboutImage}>
-            <Image src={AboutUs} />
+      <section title="choose">
+        <div className={styles.choose}>
+          <div className={styles.chooseDetail}>
+            <h1>Why Choose Us</h1>
+            <p>
+              Our coaching institute is aawesome , We provide quality education,
+              hello this is an awesome coaching centre which is absolutely fine
+              for govt examinations and these text are only for demo purpose Our
+              coaching institute is aawesome , We provide quality education,
+              hello this is an awesome coaching centre which is absolutely fine
+              for govt examinations and these text are only for demo purpose Our
+              coaching institute is aawesome , We provide quality education,
+              hello this is an awesome coaching centre which is absolutely fine
+              for govt examinations and these text are only for demo purpose
+            </p>
           </div>
-          <div className={styles.aboutDetail}>
-            <h1>About Us</h1>
-            <p>Our coaching institute is aawesome , We provide quality education, hello this is an awesome coaching centre which is absolutely fine
-              for govt examinations and these text are only for demo purpose</p>
-            <div className={styles.aboutNumbers}>
-              <p>
-                <h1>10 +</h1>
-                <span>Courses</span>
-              </p>
-              <p>
-                <h1>5 years </h1>
-                <span>Completed </span>
-              </p>
-              <p>
-                <h1>5K +</h1>
-                <span>Students </span>
-              </p>
-              <p>
-                <h1>3 +</h1>
-                <span>District</span>
-              </p>
+          <div className={styles.chooseImg}>
+            <Image src={ChooseImg} />
+          </div>
+        </div>
+      </section>
+      <section title="features">
+        <div className={styles.features}>
+          <div className={styles.featureItem}>
+            <span>
+              <i class="ri-pages-line"></i>
+            </span>
+            <h1>Quick Learning</h1>
+            <p>
+              {" "}
+              coaching institute is aawesome , We provide quality education,
+              hello this is an awesome coaching centre which is absolutely fine
+              for govt examinations and these text are only for demo purpose Our
+              coaching institute is aawesome , We provide quality education,
+            </p>
+          </div>
+          <div className={styles.featureItem}>
+            <span>
+              <i class="ri-discuss-line"></i>
+            </span>
+            <h1>All Time Support</h1>
+            <p>
+              {" "}
+              coaching institute is aawesome , We provide quality education,
+              hello this is an awesome coaching centre which is absolutely fine
+              for govt examinations and these text are only for demo purpose Our
+              coaching institute is aawesome , We provide quality education,
+            </p>
+          </div>
+          <div className={styles.featureItem}>
+            <span>
+              <i className="ri-file-list-3-line"></i>
+            </span>
+            <h1>Certification</h1>
+            <p>
+              {" "}
+              coaching institute is aawesome , We provide quality education,
+              hello this is an awesome coaching centre which is absolutely fine
+              for govt examinations and these text are only for demo purpose Our
+              coaching institute is aawesome , We provide quality education,
+            </p>
+          </div>
+        </div>
+      </section>
+      <section title="freeCourses">
+        <div className={styles.freeCourses}>
+          <h1>Our Free Courses</h1>
+          <div className={styles.courseCards}>
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+          </div>
+        </div>
+      </section>
+      <section title="testimonials">
+        <div className={styles.testimonial}>
+          <div className={styles.testimonialImg}>
+            <Image src={Testimonial} />
+          </div>
+          <div className={styles.testimonialDetail}>
+            <h1>Our Students Voice</h1>
+            <p>
+              coaching institute is aawesome , We provide quality education,
+              hello this is an awesome coaching centre which is absolutely fine
+              for govt examinations and these text are only for demo purpose Our
+              coaching institute is aawesome , We provide quality education
+              coaching institute is aawesome , We provide quality education,
+              hello this is an awesome coaching centre which is absolutely fine
+              for govt examinations and these text are only for demo purpose Our
+              coaching institute is aawesome , We provide quality education
+            </p>
+          </div>
+        </div>
+      </section>
+      <section title="newsLetter">
+        <div className={styles.newsLetter}>
+          <h1>Subscribe Our Newsletter</h1>
+          <div className={styles.newsIn}>
+            <input placeholder="Email" />
+            <div className={styles.In}>
+            <button className={styles.buttonIn}>Subscribe</button>
             </div>
           </div>
         </div>
