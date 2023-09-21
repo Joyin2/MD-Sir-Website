@@ -1,0 +1,65 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background: gray;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    /* background: gray; */
+    height: 20rem;
+    width: 19rem;
+    box-shadow: 3px 3px 10px 1px gray;
+    border-radius: 5px;
+}
+
+.container img{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 60%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.container h1{
+    margin: 5px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+.container p{
+    margin: 5px 5px 5px 5px ;
+    font-family: "Roboto", sans-serif;
+    color: gray;
+}
+
+.container span {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+.container span :nth-child(1){
+    text-decoration: none;
+    color: white;
+    padding: .8rem;
+    background: var(--green);
+    border-radius: 5px;
+}
+.container span :nth-child(1):hover{
+    background: var(--ocean);
+}
+.container span :nth-child(2){
+    text-decoration: none;
+    color: white;
+    padding: .8rem;
+    background: var(--green);
+    border-radius: 5px;
+}
+.container span :nth-child(2):hover{
+    background: var(--ocean);
+}

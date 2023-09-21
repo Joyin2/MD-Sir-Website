@@ -1,0 +1,390 @@
+.container {
+  width: 100%;
+  /* padding: 0rem 3rem; */
+  box-sizing: border-box;
+  display: flex;
+  column-gap: 3rem;
+}
+
+.schedule {
+  width: 50%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  flex-direction: column;
+  color: var(--green);
+}
+
+.schedule h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 0.5px var(--green);
+}
+
+.schedule p {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 0.9rem;
+  color: rgb(107, 107, 107);
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+.heroImg {
+  width: 50%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+
+.heroImg Image {
+}
+
+/* brand */
+
+.brands {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 20vh;
+  /* background: red; */
+}
+
+.brandItems {
+  display: flex;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  /* background: green; */
+}
+
+.brandItems span {
+  color: var(--green);
+}
+
+.brandItems span:hover {
+  color: var(--ocean);
+}
+
+/* courses */
+
+.courses {
+  display: flex;
+  
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.coursesHeader {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  /* height: 30%; */
+}
+
+.coursesHeader h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: var(--green);
+}
+
+.coursesHeader p {
+  width: 60%;
+  color: gray;
+  line-height: 1.8rem;
+  text-align: justify;
+}
+
+.coursesHeader button {
+  position: absolute;
+  right: 0rem;
+  top: 2.6rem;
+  padding: 1rem;
+  border-radius: 3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  background: var(--green);
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px 1px rgba(128, 128, 128, 0.799);
+}
+
+.coursesHeader button:hover{
+  background: var(--ocean);
+}
+
+.courseCards{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 3rem;
+  
+  margin-top: 3rem;
+}
+
+
+/* about */
+
+.about{
+  margin-top: 5rem;
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  gap: 1rem;
+
+}
+.aboutImage{
+  position: relative;
+  display: flex;
+  width: 50%;
+  padding: 2rem;
+
+}
+.aboutImage img{
+  width: 100%;
+  height: fit-content;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 1px rgba(128, 128, 128, 0.799);
+  
+}
+.aboutDetail{
+  position: relative;
+  display: flex;
+  width: 50%;
+  padding: 2rem;
+  flex-direction: column;
+}
+.aboutDetail h1{
+  font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--green);
+}
+
+.aboutDetail p{
+  font-family: "Montserrat Alternates", sans-serif;
+  line-height: 1.8rem;
+  color: gray;
+  text-align: justify;
+}
+
+.aboutNumbers{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.aboutNumbers p{
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  margin-top: 1.5rem;
+}
+
+.aboutNumbers p span{
+  color: gray;
+  line-height: 3rem;
+}
+.choose{
+  width: 100%;
+  display: flex;
+  margin-top: 5rem;
+}
+
+.chooseDetail{
+  width: 50%;
+  padding:2rem;
+
+}
+
+.chooseDetail h1{
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+font-weight: 600;
+color: var(--green);
+}
+.chooseDetail p{
+  color: gray;
+  font-family: "Montserrat Alternates", sans-serif;
+  line-height: 1.8rem;
+  text-align: justify;
+  /* margin-top: 1rem; */
+}
+
+.chooseImg{
+  width: 50%;
+  padding:2rem;
+}
+
+.chooseImg img{
+  width: 100%;
+  height: fit-content;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 1px rgba(128, 128, 128, 0.799);
+}
+
+.features{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5rem;
+  /* gap: 3rem; */
+}
+
+.featureItem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+  width: 20rem;
+  height: auto;
+  padding: .7rem;
+  box-shadow: 3px 3px 10px 1px rgba(128, 128, 128, 0.799);
+  border-radius: 5px;
+}
+.featureItem span i{
+  font-size: 2.5rem;
+}
+
+.featureItem h1{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  margin:  .8rem 0;
+  font-weight: 600;
+  color: var(--green);
+}
+.featureItem p{
+  text-align: justify;
+  color: gray;
+  padding: 0rem 1rem 1rem 1rem;
+}
+
+.freeCourses{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+.freeCourses >h1{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  margin:  .8rem 0;
+  font-weight: 600;
+  color: var(--green);
+}
+
+.testimonial{
+  width: 100%;
+  margin-top: 5rem;
+  display: flex;
+  height: auto;
+  /* padding: 2rem; */
+}
+
+.testimonialImg{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.testimonialImg img{
+  width: 80%;
+  height: fit-content;
+  background: #17bf9d3e;
+  box-shadow: 3px 3px 15px 1px rgba(128, 128, 128, 0.799);
+  border-radius: 5px;
+}
+.testimonialDetail{
+  width: 50%;
+  
+  
+}
+.testimonialDetail >h1{
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  margin:  .8rem 0;
+  font-weight: 600;
+  color: var(--green);
+}
+
+.testimonialDetail >p{
+  width: 80%;
+  color: gray;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.newsLetter{
+  margin-top: 5rem;
+  width: 100%;
+  height: 200px;
+  background: var(--ocean);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  position: relative;
+}
+.newsLetter >h1{
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  margin: 0 .8rem 0 0;
+  font-weight: 600;
+}
+.newsIn{
+  width: 600px;
+  height: 30px;
+  display: flex;
+  /* background: red; */
+}
+.newsIn >input{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  z-index: 1;
+}
+
+.In >button{
+  position: absolute;
+  right: 324px;
+  top: 108.5px;
+  border-radius: 10px;
+  padding: 13px;
+  background: var(--ocean);
+  z-index: 2;
+  outline: none;
+  border: none;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 19px;
+}
